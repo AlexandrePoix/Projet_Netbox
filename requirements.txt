@@ -1,0 +1,12 @@
+pyzabbix
+requests
+pyyaml
+anymarkup
+getmac
+pynetbox
+netaddr
+Thread
+threading
+netmiko
+netaddr
+filecmp
