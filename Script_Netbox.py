@@ -52,7 +52,7 @@ else:
 
 
 #print("\n" + "DEBUT DE L'EXPORT ZABBIX")
-'''
+
 try:
     def remove_none(obj):
         """
@@ -252,7 +252,7 @@ except:
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 FIN DE L'EXPORT ZABBIX DÉBUT DU L'IMPORT DANS NETBOX
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-'''
+
 #print("\nIMPORT EN COURS SUR NETBOX")
 logging.info("Debut de l'importation sur Netbox")
 nb = pynetbox.api(url_netbox, token = token_netbox, threading=True)
